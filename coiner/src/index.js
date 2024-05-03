@@ -10,7 +10,7 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route index element = {<Home />} />
-      <Route index element = {<Show />} />
+      <Route path="/:id" element={<Show/>}/>
     </Routes>
     </BrowserRouter>
   
